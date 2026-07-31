@@ -59,7 +59,6 @@ struct Perfil {
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="44" height="44" alt="Python" title="Python" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" width="44" height="44" alt="Go" title="Go" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="44" height="44" alt="C#" title="C#" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/erlang/erlang-original.svg" width="44" height="44" alt="Erlang" title="Erlang OTP" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="44" height="44" alt="PowerShell" title="PowerShell" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="44" height="44" alt="HTML5" title="HTML5" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="44" height="44" alt="CSS3" title="CSS3" />
@@ -123,7 +122,6 @@ struct Perfil {
 
 <img src="https://img.shields.io/badge/Inno%20Setup-1F6FEB?style=flat-square&labelColor=0D1117" alt="Inno Setup" />
 <img src="https://img.shields.io/badge/Swing%20%2B%20FlatLaf-1F6FEB?style=flat-square&labelColor=0D1117" alt="Swing FlatLaf" />
-<img src="https://img.shields.io/badge/Win32%20%2F%20DXGI-1F6FEB?style=flat-square&labelColor=0D1117" alt="Win32 DXGI" />
 <img src="https://img.shields.io/badge/Spigot%20%2F%20Paper-1F6FEB?style=flat-square&labelColor=0D1117" alt="Spigot Paper" />
 
 ### Infra, deploy e automação
@@ -166,22 +164,65 @@ struct Perfil {
 
 ## Projetos em destaque
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/LeonardoHGB/Soften-Phone">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LeonardoHGB&repo=Soften-Phone&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&border_radius=10" alt="Soften-Phone" />
-</a>
-<a href="https://github.com/LeonardoHGB/Site-Download-Builder">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LeonardoHGB&repo=Site-Download-Builder&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&border_radius=10" alt="Site-Download-Builder" />
-</a>
-<a href="https://github.com/LeonardoHGB/Spotgino">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LeonardoHGB&repo=Spotgino&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&border_radius=10" alt="Spotgino" />
-</a>
-<a href="https://github.com/LeonardoHGB/Spark-Talks">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LeonardoHGB&repo=Spark-Talks&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&border_radius=10" alt="Spark-Talks" />
-</a>
+### [SPHONE](https://github.com/LeonardoHGB/Soften-Phone)
 
-</div>
+Softphone SIP nativo para Windows. Reescrita de C#/.NET para C++17 com Qt 6 e PJSUA2 linkado estaticamente.
+
+<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Qt%206-41CD52?style=flat-square&logo=qt&logoColor=white" />
+<img src="https://img.shields.io/badge/PJSIP-1F6FEB?style=flat-square" />
+<br/>
+<img src="https://custom-icon-badges.demolab.com/badge/31%20commits-0D1117?style=flat-square&logo=git-commit&logoColor=58A6FF&labelColor=0D1117" />
+
+</td>
+<td width="50%" valign="top">
+
+### [Site Download Builder](https://github.com/LeonardoHGB/Site-Download-Builder)
+
+Baixa um site inteiro para uso offline, identifica a stack por trás dele e devolve um ZIP pronto para rodar.
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-1F6FEB?style=flat-square&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/Socket.IO-1F6FEB?style=flat-square&logo=socketdotio&logoColor=white" />
+<br/>
+<img src="https://custom-icon-badges.demolab.com/badge/100%20commits-0D1117?style=flat-square&logo=git-commit&logoColor=58A6FF&labelColor=0D1117" />
+<img src="https://custom-icon-badges.demolab.com/badge/MIT-0D1117?style=flat-square&logo=law&logoColor=58A6FF&labelColor=0D1117" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Spotgino](https://github.com/LeonardoHGB/Spotgino)
+
+Salas sincronizadas sobre Spotify Connect. O host toca e cada pessoa ouve pela própria conta, sem áudio em servidor central.
+
+<img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<br/>
+<img src="https://custom-icon-badges.demolab.com/badge/31%20commits-0D1117?style=flat-square&logo=git-commit&logoColor=58A6FF&labelColor=0D1117" />
+
+</td>
+<td width="50%" valign="top">
+
+### [STalks](https://github.com/LeonardoHGB/Spark-Talks)
+
+Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customização do Spark com endurecimento de segurança.
+
+<img src="https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/XMPP-1F6FEB?style=flat-square&logo=xmpp&logoColor=white" />
+<img src="https://img.shields.io/badge/FlatLaf-1F6FEB?style=flat-square" />
+<br/>
+<img src="https://custom-icon-badges.demolab.com/badge/Apache%202.0-0D1117?style=flat-square&logo=law&logoColor=58A6FF&labelColor=0D1117" />
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -278,10 +319,32 @@ struct Perfil {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=LeonardoHGB&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB&border_color=30363D&border_radius=10&rank_icon=github" height="180" alt="stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeonardoHGB&layout=compact&langs_count=8&hide_border=false&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D&border_radius=10" height="180" alt="top languages" />
+<img src="https://custom-icon-badges.demolab.com/badge/24-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositorios" />
+<img src="https://custom-icon-badges.demolab.com/badge/323-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
+<img src="https://custom-icon-badges.demolab.com/badge/12-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
 
 <br/><br/>
+
+</div>
+
+**Distribuição por linguagem**, somando todos os repositórios, públicos e privados:
+
+```text
+TypeScript   ███████████████████░░░░░░░░░░░░░░░░░   53.5%
+Java         █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░   25.4%
+JavaScript   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    7.2%
+C++          ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    4.3%
+HTML         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.6%
+CSS          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.7%
+Go           █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.6%
+Outras       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.7%
+```
+
+<sub>Python, PowerShell, PL/pgSQL, Handlebars, CMake e Shell compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número.</sub>
+
+<div align="center">
+
+<br/>
 
 <img src="https://streak-stats.demolab.com?user=LeonardoHGB&hide_border=false&background=0D1117&stroke=30363D&border=30363D&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&sideNums=C9D1D9&currStreakNum=C9D1D9&border_radius=10" height="180" alt="streak" />
 
