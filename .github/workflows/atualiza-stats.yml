@@ -1,0 +1,40 @@
+# Recalcula toda segunda-feira as estatisticas do portfolio (contadores e
+# grafico de linguagens) somando todos os repositorios da conta, publicos e
+# privados, e faz commit do README se algo mudou.
+#
+# Requer o secret PORTFOLIO_TOKEN: um token com permissao de leitura em todos
+# os repositorios da conta (o GITHUB_TOKEN padrao so enxerga este repositorio).
+name: Atualiza estatisticas do portfolio
+
+on:
+  schedule:
+    - cron: '0 12 * * 1' # segunda-feira, 09:00 em Brasilia
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Recalcula estatisticas
+        id: stats
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
+        run: node .github/scripts/update-stats.mjs
+
+      - name: Commit e push
+        if: steps.stats.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Atualiza estatisticas de linguagens"
+          git push
