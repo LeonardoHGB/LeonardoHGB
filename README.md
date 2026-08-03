@@ -292,7 +292,7 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 <div align="center">
 
 <img src="https://custom-icon-badges.demolab.com/badge/24-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
-<img src="https://custom-icon-badges.demolab.com/badge/325-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
+<img src="https://custom-icon-badges.demolab.com/badge/327-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
 <img src="https://custom-icon-badges.demolab.com/badge/16-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
 
 </div>
@@ -310,7 +310,7 @@ Go           █░░░░░░░░░░░░░░░░░░░░░�
 Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.8%
 ```
 
-<sub>Python, PowerShell, PL/pgSQL, Handlebars, CMake, Shell, Inno Setup, Dockerfile, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 31/07/2026.</sub>
+<sub>Python, PowerShell, PL/pgSQL, Handlebars, CMake, Shell, Inno Setup, Dockerfile, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 03/08/2026.</sub>
 <!-- STATS:END -->
 
 <div align="center">
