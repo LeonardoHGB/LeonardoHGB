@@ -292,25 +292,25 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 <div align="center">
 
 <img src="https://custom-icon-badges.demolab.com/badge/27-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
-<img src="https://custom-icon-badges.demolab.com/badge/750-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
-<img src="https://custom-icon-badges.demolab.com/badge/16-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
+<img src="https://custom-icon-badges.demolab.com/badge/815-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
+<img src="https://custom-icon-badges.demolab.com/badge/17-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
 
 </div>
 
 **Distribuição por linguagem**, somando todos os repositórios, públicos e privados:
 
 ```text
-TypeScript   █████████████████░░░░░░░░░░░░░░░░░░░   47.2%
-Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   19.1%
-Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   17.9%
-Go           ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.2%
-JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.4%
-C++          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.0%
-HTML         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.8%
-Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.5%
+TypeScript   ████████████████░░░░░░░░░░░░░░░░░░░░   45.6%
+Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   18.4%
+Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   18.0%
+Go           ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.0%
+JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.3%
+Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.6%
+C++          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.9%
+Outras       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.2%
 ```
 
-<sub>CSS, Shell, PowerShell, PL/pgSQL, Handlebars, Dockerfile, CMake, Inno Setup, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 26/10/2026.</sub>
+<sub>HTML, CSS, Shell, PowerShell, PL/pgSQL, Handlebars, Dockerfile, CMake, Inno Setup, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 02/11/2026.</sub>
 <!-- STATS:END -->
 
 <div align="center">
