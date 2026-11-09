@@ -291,8 +291,8 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 <!-- Bloco gerado por .github/scripts/update-stats.mjs. Nao editar manualmente. -->
 <div align="center">
 
-<img src="https://custom-icon-badges.demolab.com/badge/27-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
-<img src="https://custom-icon-badges.demolab.com/badge/815-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
+<img src="https://custom-icon-badges.demolab.com/badge/30-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
+<img src="https://custom-icon-badges.demolab.com/badge/2194-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
 <img src="https://custom-icon-badges.demolab.com/badge/17-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
 
 </div>
@@ -300,17 +300,17 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 **Distribuição por linguagem**, somando todos os repositórios, públicos e privados:
 
 ```text
-TypeScript   ████████████████░░░░░░░░░░░░░░░░░░░░   45.6%
-Java         ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   18.4%
-Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   18.0%
-Go           ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.0%
-JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.3%
-Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.6%
-C++          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.9%
-Outras       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5.2%
+Java         ████████████████░░░░░░░░░░░░░░░░░░░░   43.3%
+TypeScript   ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░   27.0%
+Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   17.8%
+Go           ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    4.4%
+Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.2%
+Shell        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.4%
+JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.4%
+Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.5%
 ```
 
-<sub>HTML, CSS, Shell, PowerShell, PL/pgSQL, Handlebars, Dockerfile, CMake, Inno Setup, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 02/11/2026.</sub>
+<sub>HTML, C++, CSS, PowerShell, Dockerfile, PL/pgSQL, Handlebars, CMake, Inno Setup, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 09/11/2026.</sub>
 <!-- STATS:END -->
 
 <div align="center">
