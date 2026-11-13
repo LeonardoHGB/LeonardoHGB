@@ -4,8 +4,8 @@
 
 <a href="https://github.com/LeonardoHGB">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&height=45&lines=Infra%2C+redes+e+automa%C3%A7%C3%A3o+no+dia+a+dia;C%2B%2B17+e+Qt+6+%7C+Softphone+SIP+nativo;Java+21+e+XMPP+%7C+Mensageria+corporativa;TypeScript%2C+Next.js+16+e+Go+nos+bastidores" />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=1F6FEB&center=true&vCenter=true&width=680&height=45&lines=Infra%2C+redes+e+automa%C3%A7%C3%A3o+no+dia+a+dia;C%2B%2B17+e+Qt+6+%7C+Softphone+SIP+nativo;Java+21+e+XMPP+%7C+Mensageria+corporativa;TypeScript%2C+Next.js+16+e+Go+nos+bastidores" alt="Frases sobre infraestrutura, C++ com Qt, Java com XMPP e TypeScript" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&height=45&lines=Infra%2C+redes+e+automa%C3%A7%C3%A3o+no+dia+a+dia;Java+e+TypeScript+como+base;Python+para+automa%C3%A7%C3%A3o+e+dados;Go+e+Rust+para+ferramentas+de+infra" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=1F6FEB&center=true&vCenter=true&width=680&height=45&lines=Infra%2C+redes+e+automa%C3%A7%C3%A3o+no+dia+a+dia;Java+e+TypeScript+como+base;Python+para+automa%C3%A7%C3%A3o+e+dados;Go+e+Rust+para+ferramentas+de+infra" alt="Frases sobre infraestrutura, Java, TypeScript, Python, Go e Rust" />
   </picture>
 </a>
 
@@ -28,7 +28,9 @@ namespace leonardo {
 struct Perfil {
     std::string cargo = "Analista de Infraestrutura e TI";
     std::string foco  = "Telefonia VoIP, redes, servidores e automação";
-    std::string atual = "Reescrevendo um softphone SIP de C# para C++/Qt 6";
+    std::vector<std::string> linguagens = {
+        "Java", "TypeScript", "Python", "Go", "Rust"
+    };
     std::vector<std::string> gosto_de = {
         "sistemas nativos e de alto desempenho",
         "tempo real (SIP, XMPP, WebSockets)",
@@ -45,92 +47,11 @@ struct Perfil {
 
 <br/>
 
-## Projetos em destaque
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### [SPHONE](https://github.com/LeonardoHGB/Soften-Phone)
-
-Softphone SIP nativo para Windows. Reescrita de C#/.NET para C++17 com Qt 6 e PJSUA2 com link estático. Configuração protegida por Windows DPAPI e atualização automática via GitHub Releases.
-
-</td>
-<td width="50%" valign="top">
-
-### [Site Download Builder](https://github.com/LeonardoHGB/Site-Download-Builder)
-
-Baixa um site inteiro para uso offline, identifica a stack por trás dele e devolve um ZIP pronto para rodar. Pipeline de 4 estágios e detecção de mais de 100 assinaturas de tecnologia.
-
-<img src="https://custom-icon-badges.demolab.com/badge/MIT-0D1117?style=flat-square&logo=law&logoColor=58A6FF&labelColor=0D1117" alt="Licença MIT" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## Projeto em destaque
 
 ### [Spotgino](https://github.com/LeonardoHGB/Spotgino)
 
 Salas sincronizadas sobre Spotify Connect. O host toca e cada pessoa ouve pela própria conta, sem áudio em servidor central. OAuth do Spotify com fluxo PKCE.
-
-</td>
-<td width="50%" valign="top">
-
-### [STalks](https://github.com/LeonardoHGB/Spark-Talks)
-
-Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customização do Spark com endurecimento de segurança e senhas armazenadas com AES-256-GCM.
-
-<img src="https://custom-icon-badges.demolab.com/badge/Apache%202.0-0D1117?style=flat-square&logo=law&logoColor=58A6FF&labelColor=0D1117" alt="Licença Apache 2.0" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<details>
-<summary><b>SPHONE</b> &nbsp;|&nbsp; Softphone SIP nativo em C++ e Qt 6 &nbsp;&nbsp;<img src="https://custom-icon-badges.demolab.com/badge/em%20desenvolvimento-1F6FEB?style=flat-square&logo=tools&logoColor=white&labelColor=0D1117" alt="Em desenvolvimento" /></summary>
-
-<br/>
-
-> Reescrita oficial do SoftenPhone, produto da empresa onde atuo: saiu de **C#/.NET** e tornou-se aplicação **nativa em C++17 com Qt 6.8 LTS**, resultando em binário leve e instalador profissional.
-
-| | |
-|---|---|
-| **Stack** | C++17 · Qt 6.8 LTS (Widgets, Multimedia, Network) · PJSUA2/PJSIP *(link estático)* · CMake e Ninja · MSVC · Inno Setup 6 |
-| **Destaques** | Registro em PABX e chamadas de entrada/saída com áudio · UI custom-painted com temas claro e escuro (4 telas) · DTMF, ringback e ringtone MP3 em tempo real · Histórico de chamadas · Configuração protegida por **Windows DPAPI** · Auditoria via webhook Discord · Instância única e system tray · **Atualização automática via GitHub Releases** |
-| **Engenharia** | `docs/` com as specs de engenharia reversa do app original · `tools/` com scripts de build · `packaging/` com o Inno Setup |
-| **Status** | v1.1.0 · funcional para registro, chamadas e áudio |
-
-<img src="https://img.shields.io/badge/C%2B%2B17-1F6FEB?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0D1117" alt="C++17" />
-<img src="https://img.shields.io/badge/Qt%206-1F6FEB?style=flat-square&logo=qt&logoColor=white&labelColor=0D1117" alt="Qt 6" />
-<img src="https://img.shields.io/badge/CMake-1F6FEB?style=flat-square&logo=cmake&logoColor=white&labelColor=0D1117" alt="CMake" />
-<img src="https://img.shields.io/badge/PJSIP-1F6FEB?style=flat-square&labelColor=0D1117" alt="PJSIP" />
-<img src="https://img.shields.io/badge/Windows-1F6FEB?style=flat-square&labelColor=0D1117" alt="Windows" />
-
-</details>
-
-<details>
-<summary><b>Site Download Builder</b> &nbsp;|&nbsp; Espelha sites para uso offline e identifica a stack &nbsp;&nbsp;<img src="https://custom-icon-badges.demolab.com/badge/MIT-1F6FEB?style=flat-square&logo=law&logoColor=white&labelColor=0D1117" alt="Licença MIT" /></summary>
-
-<br/>
-
-> Aplicação web que **baixa um site inteiro para uso offline**, detecta as tecnologias usadas na construção dele e entrega tudo empacotado em um ZIP pronto para rodar.
-
-| | |
-|---|---|
-| **Stack** | Node.js · Express · Socket.IO · wget · HTML, CSS e JS |
-| **Pipeline** | 4 estágios encadeados: espelhamento com `wget`, captura de recursos externos, análise de assinaturas e empacotamento com servidor local embutido |
-| **Destaques** | Progresso em tempo real via **WebSockets** · Detecção de **mais de 100 assinaturas** (linguagens de backend, CMS, frameworks e libs) · Reescrita de links · Cancelamento de download · Relatórios em HTML e JSON |
-| **Arquitetura** | Módulos separados por responsabilidade: `wget/` · `postprocess/` · `analyzer/` · `archiver/` · `socket/` · `routes/` · `views/` |
-| **Status** | 100 commits · licença MIT |
-
-<img src="https://img.shields.io/badge/Node.js-1F6FEB?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0D1117" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-1F6FEB?style=flat-square&logo=express&logoColor=white&labelColor=0D1117" alt="Express" />
-<img src="https://img.shields.io/badge/Socket.IO-1F6FEB?style=flat-square&logo=socketdotio&logoColor=white&labelColor=0D1117" alt="Socket.IO" />
-<img src="https://img.shields.io/badge/GNU%20Wget-1F6FEB?style=flat-square&logo=gnu&logoColor=white&labelColor=0D1117" alt="GNU Wget" />
-
-</details>
 
 <details>
 <summary><b>Spotgino</b> &nbsp;|&nbsp; Escute música em sincronia com os amigos &nbsp;&nbsp;<img src="https://custom-icon-badges.demolab.com/badge/desktop-1F6FEB?style=flat-square&logo=device-desktop&logoColor=white&labelColor=0D1117" alt="Aplicativo desktop" /></summary>
@@ -155,26 +76,6 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 
 </details>
 
-<details>
-<summary><b>STalks</b> &nbsp;|&nbsp; Mensageria corporativa XMPP com interface moderna &nbsp;&nbsp;<img src="https://custom-icon-badges.demolab.com/badge/Apache%202.0-1F6FEB?style=flat-square&logo=law&logoColor=white&labelColor=0D1117" alt="Licença Apache 2.0" /></summary>
-
-<br/>
-
-> Cliente de mensagens instantâneas para uso interno e corporativo, unindo *Spark* e *Talks*. Customização do **Spark** (Ignite Realtime) sobre **XMPP**, integrado a servidores **Openfire**.
-
-| | |
-|---|---|
-| **Stack** | Java 21 · Swing e **FlatLaf** · Smack (XMPP) · Openfire |
-| **Destaques** | Interface moderna no estilo Discord com lista de contatos e presença ao vivo · **Integração com Spotify** exibindo via XMPP a música em reprodução · Adição de contatos simplificada com validação no servidor · Senhas armazenadas com **AES-256-GCM** · Mini-perfil de usuário com seletor de status |
-| **Licenciamento** | Apache License 2.0, mantendo os créditos ao projeto original |
-
-<img src="https://img.shields.io/badge/Java%2021-1F6FEB?style=flat-square&logo=openjdk&logoColor=white&labelColor=0D1117" alt="Java 21" />
-<img src="https://img.shields.io/badge/Swing%20e%20FlatLaf-1F6FEB?style=flat-square&labelColor=0D1117" alt="Swing e FlatLaf" />
-<img src="https://img.shields.io/badge/XMPP-1F6FEB?style=flat-square&logo=xmpp&logoColor=white&labelColor=0D1117" alt="XMPP" />
-<img src="https://img.shields.io/badge/Openfire-1F6FEB?style=flat-square&labelColor=0D1117" alt="Openfire" />
-
-</details>
-
 <br/>
 
 ## Stack e Ferramentas
@@ -183,14 +84,19 @@ Mensageria corporativa XMPP com interface moderna, sobre Openfire. Customizaçã
 
 ### Linguagens
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="44" height="44" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" width="44" height="44" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/cplusplus/cplusplus-original.svg" width="44" height="44" alt="C++" title="C++17 e C++20" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/java/java-original.svg" width="44" height="44" alt="Java" title="Java 21 e 25" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="44" height="44" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="44" height="44" alt="Python" title="Python" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/go/go-original.svg" width="44" height="44" alt="Go" title="Go" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/csharp/csharp-original.svg" width="44" height="44" alt="C#" title="C#" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/powershell/powershell-original.svg" width="44" height="44" alt="PowerShell" title="PowerShell" />
+<img src="https://skillicons.dev/icons?i=rust" width="44" height="44" alt="Rust" title="Rust" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/JavaScript-1F6FEB?style=flat-square&logo=javascript&logoColor=white&labelColor=0D1117" alt="JavaScript" />
+<img src="https://img.shields.io/badge/C%2B%2B-1F6FEB?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0D1117" alt="C++" />
+<img src="https://img.shields.io/badge/Shell-1F6FEB?style=flat-square&logo=gnubash&logoColor=white&labelColor=0D1117" alt="Shell" />
+<img src="https://img.shields.io/badge/PowerShell-1F6FEB?style=flat-square&logo=powershell&logoColor=white&labelColor=0D1117" alt="PowerShell" />
+<img src="https://img.shields.io/badge/SQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white&labelColor=0D1117" alt="SQL" />
 
 ### Front-end
 
@@ -310,7 +216,7 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░░░�
 Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.5%
 ```
 
-<sub>HTML, C++, CSS, PowerShell, Dockerfile, PL/pgSQL, Handlebars, CMake, Inno Setup, C compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em 09/11/2026.</sub>
+<sub>HTML, C++, CSS, PowerShell, Dockerfile, PL/pgSQL, Handlebars, CMake, Inno Setup, C compõem "Outras". Código de terceiros herdado de forks está fora da conta para não distorcer o número. Atualizado automaticamente em 09/11/2026.</sub>
 <!-- STATS:END -->
 
 <div align="center">

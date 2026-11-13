@@ -108,7 +108,7 @@ ${badgeLang(agg.size)}
 ${chart}
 \`\`\`
 
-<sub>${outras} compõem "Outras". O código herdado do Spark, que o STalks customiza, está fora da conta para não distorcer o número. Atualizado automaticamente em ${data}.</sub>`;
+<sub>${outras} compõem "Outras". Código de terceiros herdado de forks está fora da conta para não distorcer o número. Atualizado automaticamente em ${data}.</sub>`;
 
 const md = fs.readFileSync(README, 'utf8');
 const START = '<!-- STATS:START -->';
