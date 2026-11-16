@@ -197,8 +197,8 @@ Salas sincronizadas sobre Spotify Connect. O host toca e cada pessoa ouve pela p
 <!-- Bloco gerado por .github/scripts/update-stats.mjs. Nao editar manualmente. -->
 <div align="center">
 
-<img src="https://custom-icon-badges.demolab.com/badge/30-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
-<img src="https://custom-icon-badges.demolab.com/badge/2194-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
+<img src="https://custom-icon-badges.demolab.com/badge/31-reposit%C3%B3rios-1F6FEB?style=for-the-badge&logo=repo&logoColor=white&labelColor=0D1117" alt="repositórios" />
+<img src="https://custom-icon-badges.demolab.com/badge/2247-commits-1F6FEB?style=for-the-badge&logo=git-commit&logoColor=white&labelColor=0D1117" alt="commits" />
 <img src="https://custom-icon-badges.demolab.com/badge/17-linguagens-1F6FEB?style=for-the-badge&logo=code-square&logoColor=white&labelColor=0D1117" alt="linguagens" />
 
 </div>
@@ -206,17 +206,17 @@ Salas sincronizadas sobre Spotify Connect. O host toca e cada pessoa ouve pela p
 **Distribuição por linguagem**, somando todos os repositórios, públicos e privados:
 
 ```text
-Java         ████████████████░░░░░░░░░░░░░░░░░░░░   43.3%
+Java         ████████████████░░░░░░░░░░░░░░░░░░░░   43.8%
 TypeScript   ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░   27.0%
-Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   17.8%
+Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   17.2%
 Go           ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    4.4%
-Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.2%
+Rust         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.1%
 Shell        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.4%
-JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.4%
-Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.5%
+JavaScript   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1.3%
+Outras       █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.9%
 ```
 
-<sub>HTML, C++, CSS, PowerShell, Dockerfile, PL/pgSQL, Handlebars, CMake, Inno Setup, C compõem "Outras". Código de terceiros herdado de forks está fora da conta para não distorcer o número. Atualizado automaticamente em 09/11/2026.</sub>
+<sub>CSS, HTML, C++, PowerShell, Dockerfile, PL/pgSQL, Handlebars, CMake, Inno Setup, C compõem "Outras". Código de terceiros herdado de forks está fora da conta para não distorcer o número. Atualizado automaticamente em 16/11/2026.</sub>
 <!-- STATS:END -->
 
 <div align="center">
